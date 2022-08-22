@@ -1,0 +1,7 @@
+虚拟机的基本设置.mp4 filter=lfs diff=lfs merge=lfs -text
+克隆虚拟机并添加集群.mp4 filter=lfs diff=lfs merge=lfs -text
+集群网络设置.mp4 filter=lfs diff=lfs merge=lfs -text
+4.[[:space:]]集群网络设置.mp4 filter=lfs diff=lfs merge=lfs -text
+3.[[:space:]]克隆虚拟机并添加集群.mp4 filter=lfs diff=lfs merge=lfs -text
+2.[[:space:]]虚拟机的基本设置.mp4 filter=lfs diff=lfs merge=lfs -text
+1.[[:space:]]VMware[[:space:]]创建[[:space:]]CentOS7[[:space:]]虚拟机.mp4 filter=lfs diff=lfs merge=lfs -text
