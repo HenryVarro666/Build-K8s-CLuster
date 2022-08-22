@@ -1,0 +1,325 @@
+make.exe all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.3
+# Built for Windows32
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Aug 14 01:50:22 2022
+
+# Variables
+
+# environment
+SYSTEMDRIVE = C:
+# environment
+ZLIBWAPI = C:\zlib123dllx64\dll_x64\zlibwapi.dll
+# environment
+LC_ALL = C
+# environment
+ACSVCPORT = 17532
+# environment
+PYTHONIOENCODING = utf-8
+# environment
+USERPROFILE = C:\Users\15045
+# environment
+LOCALAPPDATA = C:\Users\15045\AppData\Local
+# environment
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# environment
+VSCODE_CWD = G:\Build-K8s-Cluster
+# environment
+CHOCOLATEYINSTALL = C:\ProgramData\chocolatey
+# environment
+SYSTEMROOT = C:\WINDOWS
+# environment
+PROCESSOR_LEVEL = 25
+# environment
+PSMODULEPATH = C:\Users\15045\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules
+# default
+MAKE_COMMAND := C:/ProgramData/chocolatey/lib/make/tools/install/bin/make.exe
+# environment
+GOPATH = C:\Users\15045\go
+# automatic
+@D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
+# environment
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_19300_QEBBDQHEBXDSMNHT
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# automatic
+%D = $(patsubst %/,%,$(patsubst %\,%,$(dir $%)))
+# automatic
+^D = $(patsubst %/,%,$(patsubst %\,%,$(dir $^)))
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_CODE_CACHE_PATH = C:\Users\15045\AppData\Roaming\Code\CachedData\6d9b74a70ca9c7733b29f0456fd8195364076dda
+# environment
+LANG = C
+# default
+.LOADED := 
+# environment
+TMP = C:\Users\15045\AppData\Local\Temp
+# default
+.INCLUDE_DIRS = .
+# environment
+PROCESSOR_ARCHITEW6432 = AMD64
+# makefile
+MAKEFLAGS = pqrR
+# environment
+ONEDRIVE = C:\Users\15045\OneDrive
+# environment
+POWERSHELL_DISTRIBUTION_CHANNEL = MSI:Windows 10 Pro
+# makefile
+CURDIR := g:/Build-K8s-Cluster
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(patsubst %\,%,$(dir $*)))
+# environment
+PROGRAMFILES = C:\Program Files (x86)
+# environment
+MFLAGS = -pqrR
+# default
+.SHELLFLAGS := -c
+# environment
+COMMONPROGRAMW6432 = C:\Program Files\Common Files
+# automatic
++D = $(patsubst %/,%,$(patsubst %\,%,$(dir $+)))
+# makefile
+MAKEFILE_LIST := 
+# environment
+CONDA_SHLVL = 1
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_PID = 19300
+# environment
+CUDA_PATH = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7
+# automatic
+?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+CONDA_PYTHON_EXE = C:\Users\15045\anaconda3\python.exe
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
+# automatic
+*F = $(notdir $*)
+# automatic
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_translationsConfigFile":"C:\\Users\\15045\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn\\tcf.json","_cacheRoot":"C:\\Users\\15045\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn","_resolvedLanguagePackCoreLocation":"C:\\Users\\15045\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn\\6d9b74a70ca9c7733b29f0456fd8195364076dda","_corruptedFile":"C:\\Users\\15045\\AppData\\Roaming\\Code\\clp\\08bdb29c43b4c03defdaaecc51ad48b6.zh-cn\\corrupted.info","_languagePackSupport":true}
+# default
+MAKE_HOST := Windows32
+# environment
+PROGRAMDATA = C:\ProgramData
+# environment
+CONDA_PREFIX = C:\Users\15045\anaconda3
+# default
+SHELL := sh.exe
+# environment
+HOMEPATH = \Users\15045
+# default
+MAKECMDGOALS := all
+# environment
+ACSETUPSVCPORT = 23210
+# environment
+DRIVERDATA = C:\Windows\System32\Drivers\DriverData
+# environment
+COMSPEC = C:\WINDOWS\system32\cmd.exe
+# environment
+WINDIR = C:\WINDOWS
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = C:\Users\15045\anaconda3;C:\Users\15045\anaconda3\Library\mingw-w64\bin;C:\Users\15045\anaconda3\Library\usr\bin;C:\Users\15045\anaconda3\Library\bin;C:\Users\15045\anaconda3\Scripts;C:\Users\15045\anaconda3\bin;C:\Users\15045\anaconda3\condabin;C:\zlib123dllx64\dll_x64;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts;C:\Python310;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;G:\Process Lasso Pro\ProcessLassoPortable9.3.0.33\App\ProcessLasso64;C:\texlive\2021\bin\win32;C:\ProgramData\chocolatey\bin;C:\Program Files\MATLAB\R2022a\runtime\win64;C:\Program Files\MATLAB\R2022a\bin;C:\minikube;C:\Program Files\dotnet;C:\Program Files\Pandoc;C:\Program Files\nodejs;C:\Users\15045\AppData\Roaming\npm\node_modules\hexo\bin;C:\cmder;C:\cmder\bin;C:\Program Files\PuTTY;C:\Program Files\Java\jdk-11.0.15;C:\Program Files\spark-3.2.1-bin-hadoop3.2;C:\Program Files\Java\jdk-11.0.15\bin;C:\Program Files\spark-3.2.1-bin-hadoop3.2\bin;C:\Users\15045\AppData\Local\Programs\Python\Python39;C:\Users\15045\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\15045\anaconda3;C:\Users\15045\anaconda3\Library\bin;C:\Users\15045\anaconda3\Scripts;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\PowerShell\7;C:\Program Files\NVIDIA Corporation\Nsight Compute 2022.2.0;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\extras\CUPTI\lib64;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\include;C:\tools\cudnn-windows-x86_64-8.4.0.27_cuda11.6-archive\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files (x86)\NetSarang\Xftp 7;C:\Program Files\Git\cmd;C:\Users\15045\anaconda3\Library\mingw-w64\bin;C:\Users\15045\anaconda3\Library\usr\bin;C:\Users\15045\AppData\Local\Programs\Python\Python39\Scripts;C:\Users\15045\AppData\Local\Programs\Python\Python39;C:\Users\15045\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip;C:\Users\15045\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\15045\AppData\Local\GitHubDesktop\bin;C:\Program Files (x86)\oh-my-posh\bin;C:\Program Files (x86)\oh-my-posh\themes;C:\Program Files\JetBrains\PyCharm 2021.3.2\bin;C:\Users\15045\.dotnet\tools;C:\Users\15045\AppData\Roaming\npm;E:\My Drive\henryvarro666.github.io\node_modules;C:\Users\15045\go\bin;C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin
+# environment
+COMPUTERNAME = CCAO
+# default
+MAKEFILES := 
+# automatic
+^F = $(notdir $^)
+# environment
+PYCHARM = C:\Program Files\JetBrains\PyCharm 2021.3.2\bin;
+# environment
+PROMPT = $P$G
+# environment
+CHOCOLATEYLASTPATHUPDATE = 132867688281860569
+# environment
+NVTOOLSEXT_PATH = C:\Program Files\NVIDIA Corporation\NvToolsExt\
+# environment
+INTELLIJ IDEA = C:\Program Files\JetBrains\IntelliJ IDEA 2022.2\bin;
+# environment
+WT_SESSION = 7b1bb1ef-41c8-404b-bd3f-4300d2f65b67
+# environment
+LOGONSERVER = \\CCAO
+# environment
+USERNAME = 15045
+# environment
+COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
+# automatic
+?F = $(notdir $?)
+# environment
+PROGRAMW6432 = C:\Program Files
+# environment
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY;.PYW;.CPL
+# automatic
++F = $(notdir $+)
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# environment
+USERDOMAIN = CCAO
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+VS140COMNTOOLS = C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+# environment
+OS = Windows_NT
+# makefile
+.DEFAULT_GOAL := 
+# environment
+CUDA_PATH_V11_7 = C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.7
+# default
+MAKE_VERSION := 4.3
+# environment
+RLSSVCPORT = 22112
+# environment
+PROGRAMFILES(X86) = C:\Program Files (x86)
+# environment
+_CONDA_ROOT = C:\Users\15045\anaconda3
+# environment
+USERDOMAIN_ROAMINGPROFILE = CCAO
+# environment
+NUMBER_OF_PROCESSORS = 16
+# environment
+PUBLIC = C:\Users\Public
+# environment
+ASL.LOG = Destination=file
+# environment
+APPDATA = C:\Users\15045\AppData\Roaming
+# environment
+_CONDA_EXE = C:\Users\15045\anaconda3\Scripts\conda.exe
+# environment
+HOMEDRIVE = C:
+# environment
+PROCESSOR_ARCHITECTURE = x86
+# environment
+GOMODCACHE = C:\Users\15045\go\pkg\mod
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+COMMONPROGRAMFILES(X86) = C:\Program Files (x86)\Common Files
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+TEMP = C:\Users\15045\AppData\Local\Temp
+# environment
+VSCODE_IPC_HOOK = \\.\pipe\b6d594bff75b72ada6f61512fa5da9d3-1.70.1-main-sock
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# environment
+ALLUSERSPROFILE = C:\ProgramData
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+# environment
+PROCESSOR_REVISION = 2100
+# environment
+CONDA_EXE = C:\Users\15045\anaconda3\Scripts\conda.exe
+# environment
+PROCESSOR_IDENTIFIER = AMD64 Family 25 Model 33 Stepping 0, AuthenticAMD
+# variable set hash-table stats:
+# Load=117/1024=11%, Rehash=0, Collisions=9/141=6%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (key g:/Build-K8s-Cluster, mtime 1660459820): 6 files, no impossibilities.
+
+# 6 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+makefile.mak:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# Not a target:
+GNUmakefile:
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Failed to be updated.
+
+# files hash-table stats:
+# Load=7/1024=1%, Rehash=0, Collisions=0/16=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 13 / storage = 112 B / avg = 8 B
+# current buf: size = 8174 B / used = 112 B / count = 13 / avg = 8 B
+
+# strcache performance: lookups = 16 / hit rate = 18%
+# hash-table stats:
+# Load=13/8192=0%, Rehash=0, Collisions=0/16=0%
+# Finished Make data base on Sun Aug 14 01:50:22 2022
+
+ 
