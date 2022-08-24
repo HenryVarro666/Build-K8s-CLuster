@@ -1,0 +1,6 @@
+apiVersion: example.com.my.domain/v1beta1
+kind: VisitorsApp
+metadata:
+  name: visitorsapp-sample
+spec:
+  # TODO(user): Add fields here
