@@ -8,3 +8,5 @@
 6.[[:space:]]连接Intellij[[:space:]]Idea-1.mp4 filter=lfs diff=lfs merge=lfs -text
 apache-jmeter-5.4.3.rar filter=lfs diff=lfs merge=lfs -text
 operator-sdk filter=lfs diff=lfs merge=lfs -text
+Records/ filter=lfs diff=lfs merge=lfs -text
+Video[[:space:]]Records/ filter=lfs diff=lfs merge=lfs -text
