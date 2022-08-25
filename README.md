@@ -1000,9 +1000,18 @@ VMware创建三台虚拟机，利用docker，kubelet，kubeadm搭建一个cluste
    
 
 ## 自动扩容
-![压力](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208241906382.png)
+![压力](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208250019567.png)
 
-![自动扩容](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208241906687.png)
+![自动扩容](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208250019908.png)
+
+![扩容成功](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208250019127.jpeg)
+
+![replicas * 5](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208250019013.png)
+
+
+
+### 炸了
+![炸了](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208250019812.jpeg)
 
    # To-do
 
