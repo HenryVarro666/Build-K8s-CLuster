@@ -1013,9 +1013,23 @@ VMware创建三台虚拟机，利用docker，kubelet，kubeadm搭建一个cluste
 ### 炸了
 ![炸了](https://raw.githubusercontent.com/HenryVarro666/images/master/imgs/202208250019812.jpeg)
 
-   # To-do
+---
+# 1. KubeSphere
+## 前置环境
+1. 安装nfs-server
+2. 配置storageclass资源
+	1. 修改kube-apiserver pod配置文件
+	2. 配置动态供应的默认存储类
+3. metrics-server
+集群指标监控组件，如HPA、VPA等。
+先下载[metrics-server目录](https://github.com/Youngpig1998/kubernetes-tutorial/blob/main/workspace/kubesphere/metrics-server)中的所有yaml文件。之后再执行以下命令：
+```shell
+kubectl apply -f metrics-server/components.yaml
+```
 
-   ### 1. KubeSphere
+
+## 安装KubeSphere
+[https://kubesphere.com.cn/](https://kubesphere.com.cn/)
 
    > [KubeSphere](https://kubesphere.io/) 是在 [Kubernetes](https://kubernetes.io/) 之上构建的面向云原生应用的**分布式操作系统**，完全开源，支持多云与多集群管理，提供全栈的 IT 自动化运维能力，简化企业的 DevOps 工作流。它的架构可以非常方便地使第三方应用与云原生生态组件进行即插即用 (plug-and-play) 的集成。
    >
@@ -1031,4 +1045,49 @@ VMware创建三台虚拟机，利用docker，kubelet，kubeadm搭建一个cluste
 
    https://github.com/kubesphere/kubesphere
 
-   ### 2. Kubespray
+## 下载核心文件
+如果下载不到，可使用本目录中的yaml文件（此处使用的是v3.3.0版本）
+```shell
+wget https://github.com/kubesphere/ks-installer/releases/download/v3.3.0/kubesphere-installer.yaml
+
+wget https://github.com/kubesphere/ks-installer/releases/download/v3.3.0/cluster-configuration.yaml
+```
+## 修改cluster-configuration
+
+修改storage-class
+
+在 cluster-configuration.yaml中指定我们需要开启的功能，如Prometheus监控、日志、istio微服务治理等等。
+
+参照官网“启用可插拔组件”
+
+[https://kubesphere.com.cn/docs/pluggable-components/overview/](https://kubesphere.com.cn/docs/pluggable-components/overview/)
+
+## 执行安装
+```shell
+kubectl apply -f kubesphere-installer.yaml
+
+kubectl apply -f cluster-configuration.yaml
+```
+## 查看安装进度
+```shell
+kubectl logs -n kubesphere-system $(kubectl get pod -n kubesphere-system -l app=ks-install -o jsonpath='{.items[0].metadata.name}') -f
+```
+
+## 访问
+访问任意机器的 30880端口
+
+账号 ： admin
+密码 ： P@88w0rd
+
+处于containercreating状态可能是因为还在pull image，稍等片刻即可
+
+解决Prometheus pod中etcd监控证书找不到问题
+
+```shell
+kubectl -n kubesphere-monitoring-system create secret generic kube-etcd-client-certs  --from-file=etcd-client-ca.crt=/etc/kubernetes/pki/etcd/ca.crt  --from-file=etcd-client.crt=/etc/kubernetes/pki/apiserver-etcd-client.crt  --from-file=etcd-client.key=/etc/kubernetes/pki/apiserver-etcd-client.key
+```
+
+---
+# To-do
+Kubespray
+
