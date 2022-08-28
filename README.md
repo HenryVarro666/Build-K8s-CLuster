@@ -554,8 +554,14 @@ VMware创建三台虚拟机，利用docker，kubelet，kubeadm搭建一个cluste
    kubectl get pods -n kube-system
    ```
 
-
    ### NFS
+
+NFS介绍：
+
+[NFS服务器搭建与配置](https://blog.csdn.net/qq_38265137/article/details/83146421)
+
+
+
    #### 1. nfs文件系统
    ##### 安装nfs-server
 
